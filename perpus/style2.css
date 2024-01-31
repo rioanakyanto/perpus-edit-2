@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #ffffff ;
+}
+
+li > a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    max-width: 1200px;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 10px 15px rgba(0,0,0,0.1);
+}
+
+.login {
+    width: 400px;
+}
+
+form {
+    width: 250px;
+    margin: 60px auto;
+}
+
+h2 {
+    margin: 10px;
+    text-align: center;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color:white;
+}
+
+
+p {
+    text-align: center;
+    margin: 10px;
+}
+
+.right img {
+    width: 400px;
+    height: 100%;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 10px;
+}
+
+form label {
+    display: block;
+    font-size: 16px;
+    font-weight: 600px;
+    padding: 5px;
+}
+
+input {
+    width: 100%;
+    margin: 2px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+button {
+    box-shadow: 0 2px 	#0004ff;
+    background: 	#001eff;
+    border: none;
+    outline: none;
+    padding: 8px;
+    width: 80px;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 5px;
+    background:	#2f00ff;
+}
+
+
+@media (max-width: 880px) {
+    .container {
+        width: 100%;
+        max-width: 700px;
+        margin-left: 20px;
+        margin-right: 40px;
+    }
+
+    form {
+        width: 400px;
+        margin: 20px auto;
+    }
+
+    .login {
+        width: 400px;
+        padding: 20px;
+    }
+
+    .button {
+        width: 100%;
+    }
+}
+
+.right img {
+    width: 90%;
+    height: 90%;
+    margin-left: 150px; 
+}
+
+h2{
+    margin: 20px;
+    text-align: center;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: #000;
+}
+a{
+    background-color: rgb(255, 242, 0);
+    padding: 10px 10px;
+    display: inline-block;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #000;
+}
